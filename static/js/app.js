@@ -13,7 +13,7 @@ function displayResults(jsonResponse) {
     var politicalParty = jsonResponse[0]["Campaign"];
     console.log(politicalParty);
 
-    if (politicalParty = "Democrat") {
+    if (politicalParty == "Democrat") {
         var president = "Joe Biden";
         var presidentImg = "./static/images/biden_choice.png"
     }else{
