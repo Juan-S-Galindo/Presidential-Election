@@ -15,10 +15,12 @@ function displayResults(jsonResponse) {
 
     if (politicalParty == "Democrat") {
         var president = "Joe Biden";
-        var presidentImg = "../images/biden_choice.png"
+        var presidentImg = "./static/images/biden_choice.png";
     }else{
         var president = "Donald Trump";
-        var presidentImg = "../images/trump_choice.png"
+        var presidentImg = "./static/images/trump_choice.png";
+    console.log(president);
+    console.log(presidentImg);
     };
 
     // Display results
